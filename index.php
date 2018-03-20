@@ -9,6 +9,13 @@
 	<title>Document</title>
 </head>
 <body>
+	<div class="container main" style="background-image: url('maket/02_PREVIEWS/01_One Page.jpg')">
+		<div class="row">
+			<div class="header">
 
+			</div>
+		</div>
+
+	</div>
 </body>
 </html>
