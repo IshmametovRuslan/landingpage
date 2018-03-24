@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Nunito+Sans|Work+Sans');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main {
+	z-index: 999;
+	opacity: 0.4;
+	width: 1366px;
+	height: 5800px;
+	margin: auto;
+}
+.first-slide {
+	width: 100%;
+	height: 670px;
+	background-color: #e9e9e9;
+	.logo {
+		position: relative;
+		top: 38px;
+		left: 98px;
+		display: inline;
+	}
+	.menu {
+		position: absolute;
+		left: 653px;
+		top: 45px;
+		display: inline;
+		li {
+			float: left;
+			list-style: none;
+			padding: 0 16px 0;
+			a {
+				font: 12px Montserrat Medium;
+				color: #575757;
+				text-decoration: none;
+				&:hover {
+					color: #63dbdc;
+				}
+				&:active {
+					color: #63dbdc;
+				}
+			}
+		}
+	}
+	.info {
+		position: absolute;
+		top: 235px;
+		left: 768px;
+		.info__caption {
+			p {
+				font: 38px Montserrat Medium;
+				color: #575757;
+			}
+
+		}
+		.info__text {
+			margin: 33px 124px 0 0;
+			p {
+				font: 18px Nunito Sans Regular;
+				color: #787878;
+			}
+		}
+		button {
+			margin-top: 40px;
+			font: 12px Montserrat Medium;
+			padding: 23px 46px;
+			background: #63dbdc;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+	}
+}
+.second-slide {
+	width: 100%;
+	height: 419px;
+	text-align: center;
+	.about-us {
+		margin-top: 100px;
+		.about-us-caption {
+			font: 30px Montserrat Medium;;
+		}
+		.about-us-text {
+			margin: 40px auto 38px auto;
+			width: 600px;
+			font: 16px Nunito Sans Regular;
+
+		}
+	}
+
+}
+.third-slide {
+	width: 100%;
+	height: 570px;
+	.third-slide-left, .third-slide-right {
+		width: 50%;
+		height: inherit;
+		float: left;
+	}
+	.third-slide-left {
+		background-color: #f8f9f9;
+	}
+	.third-slide-right {
+		background-color: #e9e9e9;
+	}
+}
