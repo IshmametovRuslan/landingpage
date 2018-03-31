@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 .main {
 	z-index: 999;
 	opacity: 0.4;
@@ -12,7 +13,10 @@
 	height: 5800px;
 	margin: auto;
 }
+
 .first-slide {
+	background-image: url("image/paper-3265721_1920.jpg");
+	background-position: center;
 	width: 100%;
 	height: 670px;
 	background-color: #e9e9e9;
@@ -77,6 +81,7 @@
 
 	}
 }
+
 .second-slide {
 	width: 100%;
 	height: 419px;
@@ -95,6 +100,7 @@
 	}
 
 }
+
 .third-slide {
 	width: 100%;
 	height: 570px;
@@ -104,9 +110,77 @@
 		float: left;
 	}
 	.third-slide-left {
+
 		background-color: #f8f9f9;
+		font: 30px Montserrat Medium;
+
+		#header {
+			margin: 165px auto auto 98px;
+		}
+		.skills-cale {
+			margin: 38px auto auto 98px;
+
+			.skills-group {
+				margin: 41px 0 0 0;
+			}
+
+			p {
+				margin: 0;
+				font: 12px Montserrat Medium;
+			}
+			progress {
+				border: none;
+				width: 500px;
+				height: 3px;
+				background: #fff;
+				margin: 20px 0 0 0;
+			}
+
+			progress {
+				display: block;
+				color: lightblue;
+				&::-moz-progress-bar {
+					background: #10c9c3;
+				}
+
+				&::-webkit-progress-value {
+					background: #10c9c3;
+				}
+
+				&::-webkit-progress-bar {
+					background: #d8d8d8;
+				}
+			}
+		}
+
 	}
 	.third-slide-right {
 		background-color: #e9e9e9;
+		background-image: url("image/note-pad-1215423_640.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+}
+.four-slide {
+	width: 100%;
+	height: 240px;
+	background-color: #00CCCC;
+	article {
+		width: 25%;
+		height: 100%;
+		float: left;
+		color: #fff;
+		font: 12px Montserrat Medium;
+		display: flex;
+		div {
+			margin: auto;
+			padding-right: 10px;
+			div {
+				float: left;
+				p:last-child {
+					margin-top: 10px;
+				}
+			}
+		}
 	}
 }
