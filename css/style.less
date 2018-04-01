@@ -5,17 +5,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-.main {
-	z-index: 999;
-	opacity: 0.4;
-	width: 1366px;
-	height: 5800px;
-	margin: auto;
+.row {
+	margin: 0;
 }
 
 .first-slide {
-	background-image: url("image/paper-3265721_1920.jpg");
+	background-image: url("/image/paper-3265721_1920.jpg");
 	background-position: center;
 	width: 100%;
 	height: 670px;
@@ -156,7 +151,7 @@
 	}
 	.third-slide-right {
 		background-color: #e9e9e9;
-		background-image: url("image/note-pad-1215423_640.jpg");
+		background-image: url("/image/note-pad-1215423_640.jpg");
 		background-position: center;
 		background-size: cover;
 	}
@@ -180,6 +175,38 @@
 				p:last-child {
 					margin-top: 10px;
 				}
+			}
+		}
+	}
+}
+.five-slide {
+	height: 600px;
+	padding: 0;
+	.image-fist-row, .image-second-row {
+		height: 300px;
+		padding: 0;
+		.image {
+			padding: 0;
+			height: 100%;
+			transition: 0.5s linear;
+			&:hover {
+				cursor: pointer;
+				.icon-eyes {
+					opacity: 1;
+					background-color: rgba(0, 0, 0, 0.71);
+				}
+			}
+			.icon-eyes {
+				display: flex;
+				padding: 0;
+				transition: 0.3s linear;
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				img {
+					margin: auto;
+				}
+
 			}
 		}
 	}

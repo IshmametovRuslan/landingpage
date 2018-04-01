@@ -5,8 +5,9 @@
 	<meta name="viewport"
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Landing page</title>
 </head>
 <body>
@@ -127,7 +128,44 @@
 			</div>
 		</article>
 	</section>
-	<section></section>
+	<section class="five-slide row">
+		<div class="image-fist-row col-md-12">
+			<div class="image col-md-3"
+			     style="background: url('image/brochure-temp19.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+			<div class="image col-md-3"
+			     style="background: url('image/phone.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+			<div class="image col-md-3"
+			     style="background: url('image/shopping_bag.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+			<div class="image col-md-3"
+			     style="background: url('image/hand-3175107_960_720.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+		</div>
+		<div class="image-second-row col-md-12">
+			<div class="image col-md-3"
+			     style="background: url('image/flacon.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+			<div class="image col-md-3"
+			     style="background: url('image/white_paket.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+			<div class="image col-md-3"
+			     style="background: url('image/One-copy-260x180.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+			<div class="image col-md-3"
+			     style="background: url('image/flacon2.jpg'); background-size: cover; background-position: center">
+				<div class="icon-eyes"><img src="/image/icon/pe-7s-look.png" alt="look"></div>
+			</div>
+		</div>
+	</section>
 	<section></section>
 	<section></section>
 	<section></section>
